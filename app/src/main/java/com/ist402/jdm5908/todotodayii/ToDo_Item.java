@@ -10,9 +10,7 @@ public class ToDo_Item {
     public ToDo_Item() {
     }
 
-    public ToDo_Item(int id, String desc, int done) {
-
-        _id = id;
+    public ToDo_Item(String desc, int done) {
         description = desc;
         is_done = done;
     }
